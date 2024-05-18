@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(227, 241, 227);
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  padding: 0 1em 2em 1em;
+  border-radius: 10px;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.form {
+  font-size: 10px;
+  display: flex;
+  color: grey;
+  justify-content: space-between;
+}
+
+.form-input2 {
+  border-radius: 5px;
+  border: 1px solid rgb(197, 193, 193);
+  padding: 5px;
+  width: 183px;
+  display: block;
+}
+
+input [type="text"] {
+  border-radius: 5px;
+  border: 1px solid rgb(197, 193, 193);
+  padding: 5px;
+  width: 183px;
+  display: block;
+}
+
+.email {
+  font-size: 10px;
+  color: grey;
+}
+
+.input-imail {
+  width: 387px;
+  border: 1px solid rgb(197, 193, 193);
+  border-radius: 5px;
+  padding: 5px;
+}
+div {
+  font-size: 10px;
+  display: flex;
+  color: grey;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 10px;
+  color: grey;
+}
+
+.label-input {
+  border-radius: 5px;
+  border: 1px solid rgb(197, 193, 193);
+  width: 183px;
+  justify-content: flex-start;
+  display: flex;
+  padding: 5px 5px 5px 0px;
+}
+.input-radio {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10%;
+  height: 10px;
+  width: 30px;
+}
+
+.label-massage {
+  font-size: 10px;
+  color: grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#input-massage {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  height: 50px;
+  width: 387px;
+}
+.inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: grey;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 0.8rem;
+  background-color: rgb(81, 121, 81);
+  margin: 1em auto;
+  min-width: 300px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
